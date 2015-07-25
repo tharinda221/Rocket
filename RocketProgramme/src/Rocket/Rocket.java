@@ -3,6 +3,7 @@ package rocket;
 public abstract class Rocket {
     private String name, ID;
     private static int ROCKET_COUNT = 0;
+    private Pilot pilot;
     
     public Rocket (String name) {
         this.name = name;
