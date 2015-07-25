@@ -23,7 +23,7 @@ public abstract class Rocket {
         this.ID = ID;
     }
     
-    public abstract void assignPilot(String pilotID);
+    public abstract void assignPilot();
     public abstract void fuelEfficiency();
     
     public void upCount() {
