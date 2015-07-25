@@ -7,6 +7,7 @@ abstract class Pilot {
 
     String name;
     int id;
+    
     public void setName(String name){
         this.name=name;
     }
@@ -20,8 +21,5 @@ abstract class Pilot {
 
     public int getId(){
         return id;
-    }
-    public void show(){
-        System.out.println(name+" "+id);
     }
 }
